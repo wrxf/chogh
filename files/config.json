@@ -11,30 +11,30 @@
             "settings":{
                 "clients":[
                     {
-                        "id":"8bc14ebd-fe29-4d28-ae15-686efa9f98ae",
+                        "id":"ed1dea74-e729-4d50-9de8-015092f06cff",
                         "flow":"xtls-rprx-vision"
                     }
                 ],
                 "decryption":"none",
                 "fallbacks":[
                     {
-                        "dest":4001
+                        "dest":7301
                     },
                     {
                         "path":"/vless",
-                        "dest":4002
+                        "dest":7302
                     },
                     {
                         "path":"/vmess",
-                        "dest":4003
+                        "dest":7303
                     },
                     {
                         "path":"/trojan",
-                        "dest":4004
+                        "dest":7304
                     },
                     {
                         "path":"/shadowsocks",
-                        "dest":4005
+                        "dest":7305
                     }
                 ]
             },
@@ -43,13 +43,13 @@
             }
         },
         {
-            "port":4001,
+            "port":7301,
             "listen":"127.0.0.1",
             "protocol":"vless",
             "settings":{
                 "clients":[
                     {
-                        "id":"8bc14ebd-fe29-4d28-ae15-686efa9f98ae"
+                        "id":"ed1dea74-e729-4d50-9de8-015092f06cff"
                     }
                 ],
                 "decryption":"none"
@@ -60,13 +60,13 @@
             }
         },
         {
-            "port":4002,
+            "port":7302,
             "listen":"127.0.0.1",
             "protocol":"vless",
             "settings":{
                 "clients":[
                     {
-                        "id":"8bc14ebd-fe29-4d28-ae15-686efa9f98ae",
+                        "id":"ed1dea74-e729-4d50-9de8-015092f06cff",
                         "level":0
                     }
                 ],
@@ -90,13 +90,13 @@
             }
         },
         {
-            "port":4003,
+            "port":7303,
             "listen":"127.0.0.1",
             "protocol":"vmess",
             "settings":{
                 "clients":[
                     {
-                        "id":"8bc14ebd-fe29-4d28-ae15-686efa9f98ae",
+                        "id":"ed1dea74-e729-4d50-9de8-015092f06cff",
                         "alterId":0
                     }
                 ]
@@ -118,13 +118,13 @@
             }
         },
         {
-            "port":4004,
+            "port":7304,
             "listen":"127.0.0.1",
             "protocol":"trojan",
             "settings":{
                 "clients":[
                     {
-                        "password":"8bc14ebd-fe29-4d28-ae15-686efa9f98ae"
+                        "password":"ed1dea74-e729-4d50-9de8-015092f06cff"
                     }
                 ]
             },
@@ -146,14 +146,14 @@
             }
         },
         {
-            "port":4005,
+            "port":7305,
             "listen":"127.0.0.1",
             "protocol":"shadowsocks",
             "settings":{
                 "clients":[
                     {
                         "method":"chacha20-ietf-poly1305",
-                        "password":"8bc14ebd-fe29-4d28-ae15-686efa9f98ae"
+                        "password":"ed1dea74-e729-4d50-9de8-015092f06cff"
                     }
                 ],
                 "decryption":"none"
